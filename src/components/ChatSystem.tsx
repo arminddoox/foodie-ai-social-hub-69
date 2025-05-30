@@ -189,10 +189,10 @@ const ChatSystem = () => {
           </CardHeader>
           <CardContent className="p-0">
             <Tabs defaultValue="all" className="w-full">
-              <TabsList className="grid w-full grid-cols-3 mx-4 mb-4 bg-orange-50">
-                <TabsTrigger value="all" className="text-xs">Tất cả</TabsTrigger>
-                <TabsTrigger value="ai" className="text-xs">AI Bot</TabsTrigger>
-                <TabsTrigger value="stores" className="text-xs">Quán ăn</TabsTrigger>
+              <TabsList className="grid w-full grid-cols-3 mx-4 mb-4 bg-orange-50 h-8">
+                <TabsTrigger value="all" className="text-xs px-2 py-1">Tất cả</TabsTrigger>
+                <TabsTrigger value="ai" className="text-xs px-2 py-1">AI Bot</TabsTrigger>
+                <TabsTrigger value="stores" className="text-xs px-2 py-1">Quán ăn</TabsTrigger>
               </TabsList>
 
               <TabsContent value="all" className="mt-0">
